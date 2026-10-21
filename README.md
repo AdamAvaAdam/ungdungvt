@@ -4,7 +4,7 @@ Cổng tĩnh tiếng Việt cho bốn công cụ GitHub Pages, giao diện đi�
 
 ## Trạng thái
 
-Mã sẵn sàng chạy trên GitHub Pages. Đăng nhập bị khóa cho tới khi cấu hình Supabase; không có tài khoản/mật khẩu mặc định hoặc chế độ bỏ qua đăng nhập. Chưa kiểm chứng bốn ứng dụng nhúng được: môi trường kiểm tra không phân giải được tên miền và công cụ web không truy cập được các URL. Sự kiện iframe load không chứng minh nội dung tải thành công nên giao diện không tuyên bố nhúng thành công.
+Đã xác nhận GitHub Pages hiển thị giao diện mới tại https://adamavaadam.github.io/ungdungvt/ ngày 21/10/2026. Đăng nhập bị khóa cho tới khi cấu hình Supabase; không có tài khoản/mật khẩu mặc định hoặc chế độ bỏ qua đăng nhập. Trình duyệt đã mở trực tiếp được cả bốn URL; BHVer1 là Báo giá nhanh, Bản đồ nhiệt có màn hình đăng nhập riêng, Phân tích số có dashboard kèm nội dung văn bản dư từ cuộc trò chuyện cũ, Công nợ có khung ứng dụng. Không sửa các công cụ gốc. Chưa kiểm chứng nhúng iframe và tác vụ bên trong: môi trường shell không phân giải được tên miền, công cụ web không truy cập được URL và chưa có phiên Admin để kiểm thử dashboard thực. Sự kiện iframe load không chứng minh nội dung tải thành công nên giao diện không tuyên bố nhúng thành công.
 
 ## Đưa lên GitHub Pages
 
