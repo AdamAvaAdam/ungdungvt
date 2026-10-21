@@ -1,2 +1,5 @@
-// Chỉ dùng URL và publishable key công khai. Không đặt mật khẩu/service_role ở đây.
-window.PORTAL_CONFIG = { supabaseUrl: '', publishableKey: '' };
+// Cấu hình công khai cho trình duyệt. Không đặt mật khẩu hoặc secret/service_role key tại đây.
+window.PORTAL_CONFIG = {
+  supabaseUrl: 'https://wzogdfitvboaqvcmggzo.supabase.co',
+  publishableKey: 'sb_publishable_d5iSdiH6zvuYtcQhVMqA9Q_j1AnJQ3I'
+};
