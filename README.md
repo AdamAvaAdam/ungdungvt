@@ -41,3 +41,13 @@ Mở từng công cụ từ dashboard; so sánh thao tác, đăng nhập riêng,
 
 Tài liệu: https://supabase.com/docs/guides/auth/passwords
 https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+
+## Doanh số chương trình 22–31/10/2026
+
+Đã thêm công cụ thứ năm **Doanh số chương trình** vào menu và dashboard. Mở trong khung của cổng hoặc mở tab riêng tại `doanh-so/`. Các ứng dụng cũ và cấu hình đăng nhập được giữ nguyên.
+
+Công cụ đọc tab **Đơn hàng** (`gid=912353833`) của Google Sheets Tồn - Giá. Trong ứng dụng, chọn **Google Sheets → Đọc & kiểm tra nguồn → Lưu & kết nối nguồn**. Chỉ xác nhận cột Tổng tiền đã gồm VAT 8% khi đã đối chiếu. Có cập nhật thủ công hoặc mỗi 5 phút khi mở trang. Không ghi vào bảng nguồn và không nhúng thông tin đăng nhập.
+
+Theo dõi doanh số cộng dồn 22–31/10, loại điều hòa Daikin; chỉ Hùng Thanh và Tuấn Ngoan áp dụng S-VIP, các khách khác là **Khách hàng**. Mốc một đơn/ngày chỉ là ghi chú, không tính vào thanh tiến độ cộng dồn. Giữ nhập Excel và bổ sung doanh số, xuất CSV, sao lưu/phục hồi JSON. Không đưa dữ liệu khách, Excel hay bản sao lưu vào repository.
+
+Dữ liệu và xác nhận lưu trong trình duyệt, không đồng bộ giữa thiết bị. Đồng bộ Sheets thay dữ liệu Google đã quản lý, giữ doanh số thủ công; lần đầu kết nối cần đối soát Excel cũ hoặc dòng thủ công có trùng giao dịch. Đường dẫn ứng dụng tĩnh riêng vẫn có cùng giới hạn bảo vệ như các công cụ GitHub Pages khác đã mô tả ở trên.

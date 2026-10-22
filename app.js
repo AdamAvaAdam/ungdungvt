@@ -3,8 +3,9 @@ const apps = [
  {id:'BHVer1',name:'BHVer1',description:'Mở công cụ BHVer1 trong không gian làm việc.',icon:'B',tint:'#e4f2ec',ink:'#1c7863'},
  {id:'bandonhiet1',name:'Bản đồ nhiệt',description:'Truy cập công cụ bản đồ nhiệt.',icon:'◈',tint:'#fff0df',ink:'#b5792b'},
  {id:'phantichso',name:'Phân tích số',description:'Truy cập công cụ phân tích số.',icon:'↗',tint:'#e9edf9',ink:'#5866aa'},
- {id:'congno',name:'Công nợ',description:'Truy cập công cụ quản lý công nợ.',icon:'≋',tint:'#f5eaf3',ink:'#9a588d'}
-].map(app=>({...app,url:`https://adamavaadam.github.io/${app.id}/`}));
+ {id:'congno',name:'Công nợ',description:'Truy cập công cụ quản lý công nợ.',icon:'≋',tint:'#f5eaf3',ink:'#9a588d'},
+ {id:'doanh-so',name:'Doanh số chương trình',description:'Theo dõi doanh số cộng dồn 22–31/10/2026, mốc thưởng khách hàng và S-VIP từ Google Sheets.',icon:'▥',tint:'#edf2df',ink:'#42683a',url:new URL('doanh-so/',document.baseURI).href}
+].map(app=>({...app,url:app.url||`https://adamavaadam.github.io/${app.id}/`}));
 const $=id=>document.getElementById(id);
 const config=window.PORTAL_CONFIG||{};
 const configured=/^https:\/\/[a-z0-9-]+\.supabase\.co\/?$/.test(config.supabaseUrl||'') && /^(sb_publishable_|eyJ)/.test(config.publishableKey||'');
